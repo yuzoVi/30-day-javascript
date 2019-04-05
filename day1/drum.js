@@ -32,41 +32,49 @@ function pressionarTecla(event) {
 
     case 83:
       hithat.classList.add("amarelo")
+      hithat.currentTime = 0;
       hithatSound.play()
       break
 
     case 68:
       kick.classList.add("amarelo")
+      kick.currentTime = 0;
       kickSound.play()
       break
 
     case 70:
       openhat.classList.add("amarelo")
+      openhat.currentTime = 0;
       openhatSound.play()
       break
 
     case 71:
       boom.classList.add("amarelo")
+      boom.currentTime = 0;
       boomSound.play()
       break
 
     case 72:
       ride.classList.add("amarelo")
+      ride.currentTime = 0;
       rideSound.play()
       break
 
     case 74:
       snare.classList.add("amarelo")
+      snare.currentTime = 0;
       snareSound.play()
       break
 
     case 75:
       tom.classList.add("amarelo")
+      tom.currentTime = 0;
       tomSound.play()
       break
 
     case 76:
       tink.classList.add("amarelo")
+      tink.currentTime = 0;
       tinkSound.play()
       break
 
